@@ -1,7 +1,7 @@
 # Frontend Daily - Login Component
 
 ![baranozdemir_frontend_daily_1](https://user-images.githubusercontent.com/35881298/119251713-a57cf480-bbb0-11eb-964e-9dd110cac2cb.png)
-
+s
 
 [YouTube Video Link is Here!](https://youtu.be/7D9IR--AP_s/) :sparkles:
 
