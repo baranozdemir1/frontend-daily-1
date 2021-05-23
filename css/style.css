@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #C793FC, #898CD1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-component {
+  width: 1055px;
+  height: 704px;
+  background: white;
+  display: flex;
+  padding: 150px;
+  justify-content: space-between;
+  border-radius: 53px;
+}
+.login-component .text {
+  max-width: 244px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.login-component .login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-component .login-form .app-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.login-component .login-form .app-btn a {
+  border-radius: 5px;
+  border: 2px solid #DCDBE5;
+  padding: 15px 0;
+  width: 321px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #192033;
+}
+.login-component .login-form .app-btn a svg {
+  margin-right: 15px;
+}
+.login-component .login-form .or-line {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #8986A2;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  display: table;
+  overflow: hidden;
+}
+.login-component .login-form .or-line:before, .login-component .login-form .or-line:after {
+  content: "";
+  display: table-cell;
+  position: relative;
+  border-top: 2px solid #DCDBE5;
+  top: 0.5em;
+  width: 50%;
+}
+.login-component .login-form .or-line:before {
+  right: 4%;
+}
+.login-component .login-form .or-line:after {
+  left: 4%;
+}
+.login-component .login-form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-component .login-form form .email {
+  display: flex;
+  flex-direction: column;
+}
+.login-component .login-form form .email label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #192033;
+  margin-bottom: 5px;
+}
+.login-component .login-form form .email input {
+  width: 100%;
+  border: 2px solid #DCDBE5;
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.login-component .login-form form .form-btn button {
+  width: 100%;
+  background: linear-gradient(to bottom right, #A364E3, #5A5EB4);
+  border: none;
+  padding: 20px 0;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
